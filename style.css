@@ -1,0 +1,86 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+body {
+    background-color: rgb(214, 214, 214);
+}
+
+.card-contain {
+    background-color: white;
+    width: 100%;
+    max-width: 34%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    box-shadow: 15px 15px 15px rgba(0, 0, 0, 0.377);
+}
+
+.card-content {
+    padding: 1rem 0 1rem 2rem;
+}
+
+/* header */
+
+.card-header {
+    display: flex;
+    align-items: center;
+}
+
+.header-contain {
+    width: 42%;
+    margin-right: 3.5rem;
+}
+
+.header-contain h1 {
+    line-height: 2rem;
+}
+
+/* img */
+
+.qr-code {
+    width: 100%;
+    max-width: 108px;
+}
+
+.qr-code-contain {
+    width: 30%;
+    text-align: center;
+    margin-left: 20px;
+    margin-bottom: 8px;
+}
+
+.qr-code-contain p {
+    line-height: 16px;
+    padding-bottom: 6px;
+}
+
+/* lines */
+
+.v-line {
+    height: 10rem;
+    width: 1px;
+    background-color: black;
+}
+
+.h-line {
+    height: 1px;
+    width: 22rem;
+    background-color: black;
+}
+
+/* footer */
+
+.card-footer {
+    display: flex;
+    align-items: center;
+    gap: 11.7rem;
+    margin-top: 5px;
+}
+
+.card-footer p {
+    font-size: 10px;
+}
