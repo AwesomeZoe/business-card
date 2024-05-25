@@ -68,7 +68,7 @@ body {
 
 .h-line {
     height: 1px;
-    width: 22rem;
+    width: 23rem;
     background-color: black;
 }
 
@@ -77,7 +77,7 @@ body {
 .card-footer {
     display: flex;
     align-items: center;
-    gap: 11.7rem;
+    gap: 12.8rem;
     margin-top: 5px;
 }
 
